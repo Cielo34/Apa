@@ -1,0 +1,144 @@
+
+html{
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+body{
+    width: 100%;
+    margin: 0px;
+ 
+}
+
+
+header{
+    background-image: url(imagenes_apa/pizarra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  
+}
+
+.navegador{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255); 
+    opacity: 100%;
+    color: rgb(20, 20, 20);
+    position: fixed;
+    z-index:100;
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 20px;
+}
+
+.navegador ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegador ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.navegador img{
+    opacity: 100%;
+}
+
+
+
+.About{
+    display: flex;
+    padding: 35px;
+    background-color: aquamarine;
+    column-gap: 80px;
+}
+
+p{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.studios-row{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+
+
+.items {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.personas {
+    flex-basis: 323px;
+}
+
+
+.name{
+    background-color: aquamarine;
+    padding: 3px;
+    margin-top: 0px;
+    margin-right: 23px;
+}
+
+.personas img{
+   width: 300px;
+   margin-top: 20px;
+}
+
+.Footer{
+    background-color: rgb(161, 161, 161);
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+h3{
+    color: aliceblue;
+}
+
+@media screen and (max-width:768px){
+    
+    #logo{
+        display: flex;
+        width: 20%;
+        margin-left: 40%;
+        
+    }
+
+
+    .navegador{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255); 
+        opacity: 100%;
+        color: rgb(20, 20, 20);
+        text-align: center;
+        
+        z-index:100;
+        margin-bottom: 0px;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .navegador ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navegador ul li{
+        display: inline-block;
+        padding: 3px;
+    }
+
+}
